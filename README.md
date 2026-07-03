@@ -21,7 +21,7 @@ cp .env.example .env
 # Запуск Neo4j (Docker)
 docker run -d --name neo4j -p 7474:7474 -p 7687:7687 -e NEO4J_AUTH=neo4j/password neo4j:latest
 
-# Генерация тестовых данных
+# Генерация тестовых данных или скачайте проект с яндекса диска с большим объёмом данных
 python generate_test_data.py
 
 # Запуск пайплайна обработки

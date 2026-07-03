@@ -29,6 +29,7 @@ app.log
 # Env
 .env.local
 .env.*.local
+.env
 
 # OS
 .DS_Store
